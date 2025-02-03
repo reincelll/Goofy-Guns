@@ -1,0 +1,386 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "",
+  "helpPath": "",
+  "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNrdWxsLXNjYW4tb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yIDBDLjkgMCAwIC45IDAgMlY2SDJWMkg2VjBIMk0xOCAwVjJIMjJWNkgyNFYyQzI0IC45IDIzLjEgMCAyMiAwSDE4TTkuNSAxM0M4LjcgMTMgOCAxMi4zIDggMTEuNVM4LjcgMTAgOS41IDEwIDExIDEwLjcgMTEgMTEuNSAxMC4zIDEzIDkuNSAxM00xMSAxNUwxMiAxM0wxMyAxNUgxMU0xNC41IDEzQzEzLjcgMTMgMTMgMTIuMyAxMyAxMS41UzEzLjcgMTAgMTQuNSAxMCAxNiAxMC43IDE2IDExLjUgMTUuMyAxMyAxNC41IDEzTTAgMThWMjJDMCAyMy4xIC45IDI0IDIgMjRINlYyMkgyVjE4SDBNMjIgMThWMjJIMThWMjRIMjJDMjMuMSAyNCAyNCAyMy4xIDI0IDIyVjE4SDIyTTEyIDNDNy42IDMgNCA2LjYgNCAxMUM0IDEzIDQuOCAxNC45IDYgMTYuM1YyMUgxOFYxNi4zQzE5LjIgMTQuOSAyMCAxMy4xIDIwIDExQzIwIDYuNiAxNi40IDMgMTIgM00xNiAxNS40VjE5SDE0VjE3SDEzVjE5SDExVjE3SDEwVjE5SDhWMTUuNEM2LjggMTQuMyA2IDEyLjcgNiAxMUM2IDcuNyA4LjcgNSAxMiA1UzE4IDcuNyAxOCAxMUMxOCAxMi44IDE3LjIgMTQuMyAxNiAxNS40WiIgLz48L3N2Zz4=",
+  "name": "Goofy_Guns",
+  "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/6ff740161a7d69fa745bba3e8f4516beaee057728709a2dea7dac4ed94c1f421_skull-scan-outline.svg",
+  "shortDescription": "",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "globalVariables": [],
+  "sceneVariables": [],
+  "eventsFunctions": [
+    {
+      "description": "Center an object on certin axis",
+      "fullName": "Center",
+      "functionType": "Action",
+      "group": "GoofyGuns",
+      "name": "Function",
+      "sentence": "Center _PARAM1_ _PARAM2_",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "Object",
+                "!=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareArgumentAsString"
+                  },
+                  "parameters": [
+                    "\"Axis\"",
+                    "=",
+                    "\"Both\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "SceneWindowWidth()/2",
+                    "=",
+                    "SceneWindowHeight()/2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareArgumentAsString"
+                  },
+                  "parameters": [
+                    "\"Axis\"",
+                    "=",
+                    "\"Horizontally\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenterX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "SceneWindowWidth()/2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareArgumentAsString"
+                  },
+                  "parameters": [
+                    "\"Axis\"",
+                    "=",
+                    "\"Vertically\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCenterY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "SceneWindowHeight()/2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Object",
+          "name": "Object",
+          "type": "objectList"
+        },
+        {
+          "description": "Axis",
+          "name": "Axis",
+          "supplementaryInformation": "[\"Horizontally\",\"Vertically\",\"Both\"]",
+          "type": "stringWithSelector"
+        }
+      ],
+      "objectGroups": []
+    },
+    {
+      "fullName": "",
+      "functionType": "Action",
+      "name": "onScenePreEvents",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetWindowTitle"
+              },
+              "parameters": [
+                "",
+                "\"Goofy Guns \"+ToString(roundTo(FPS::FPS(),1))+\" FPS\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Sine",
+                "+",
+                ".1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarGlobal"
+              },
+              "parameters": [
+                "Sine",
+                ">",
+                "330"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarGlobal"
+              },
+              "parameters": [
+                "Sine",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [],
+      "objectGroups": []
+    },
+    {
+      "description": "When Button is Clicked",
+      "fullName": "When Button Clicked",
+      "functionType": "Condition",
+      "group": "GoofyGuns",
+      "name": "ButtonClicked",
+      "sentence": "When _PARAM2_ is Clicked",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "Button",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MouseButtonFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Left\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjetTxt"
+              },
+              "parameters": [
+                "Button",
+                "function",
+                "=",
+                "Function"
+              ]
+            },
+            {
+              "type": {
+                "value": "LayerVisible"
+              },
+              "parameters": [
+                "Button",
+                "Button.Layer()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Button"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Button",
+                "MouseX(Button.Layer())",
+                "MouseY(Button.Layer())",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetReturnBoolean"
+              },
+              "parameters": [
+                "True"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": [
+        {
+          "description": "Button",
+          "name": "Button",
+          "type": "objectList"
+        },
+        {
+          "description": "Function",
+          "name": "Function",
+          "type": "string"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
+  "eventsBasedBehaviors": [
+    {
+      "description": "Displays game FPS",
+      "fullName": "FPSCount",
+      "name": "MyBehavior",
+      "objectType": "TextObject::Text",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Text",
+                    "=",
+                    "ToString(round(FPS::FPS()))+\" FPS\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "5",
+                    "=",
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Text::SetFontSize"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "12"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "TextObject::Text",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "Goofy_Guns::MyBehavior",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}

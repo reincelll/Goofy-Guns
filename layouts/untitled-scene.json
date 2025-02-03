@@ -1,0 +1,1744 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Untitled_32scene",
+  "name": "Untitled scene",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 1.4790395861757424,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "accountloginerrors",
+      "type": "string",
+      "value": "0"
+    },
+    {
+      "name": "gamecode",
+      "type": "structure",
+      "children": [
+        {
+          "name": "code",
+          "type": "string",
+          "value": "sigmaskibidiohio"
+        }
+      ]
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "title_text",
+      "persistentUuid": "0c0a73e1-bc69-41eb-95f8-38b11a0aa910",
+      "width": 0,
+      "x": 0,
+      "y": 82,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Background",
+      "name": "Background",
+      "persistentUuid": "e407bedc-435f-4042-803b-6a37cef11120",
+      "width": 0,
+      "x": 0,
+      "y": 0,
+      "zOrder": -500,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Cursor",
+      "name": "FPS",
+      "opacity": 89,
+      "persistentUuid": "e6daa9dd-2d66-4746-ba95-e496f2a8f6ec",
+      "width": 0,
+      "x": 5,
+      "y": 5,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "a7c48dae-4a07-490f-8d56-e52493e9952c",
+      "width": 73,
+      "x": 14,
+      "y": 152,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Host"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "cc5164bb-06ec-4698-ad98-ae0a74c53034",
+      "width": 73,
+      "x": 14,
+      "y": 186,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Join"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "862de6b0-2a69-4eee-bc91-f34a81455197",
+      "width": 167,
+      "x": 0,
+      "y": 221,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "function",
+          "type": "string",
+          "value": "None"
+        },
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Practice "
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "c563a364-d877-454d-ba79-5fb555e4a8eb",
+      "width": 117,
+      "x": 14,
+      "y": 289,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Options"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "6bb2ef4b-ad4c-4563-82a4-2e3eb6cee190",
+      "width": 73,
+      "x": 14,
+      "y": 324,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "function",
+          "type": "string",
+          "value": "quit"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Quit"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 20,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Button",
+      "persistentUuid": "ef7be6cd-664c-4b9c-8eee-aae234da1398",
+      "width": 177,
+      "x": 0,
+      "y": 255,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Customize"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 35,
+      "layer": "FirstTime",
+      "name": "username",
+      "persistentUuid": "3fd63b09-424c-48e2-89df-db0611ec2640",
+      "width": 400,
+      "x": 140,
+      "y": 161,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "FirstTime",
+      "name": "Button",
+      "persistentUuid": "a9406624-a4e2-44bd-bf99-f362cdcdb6e8",
+      "width": 0,
+      "x": 311,
+      "y": 221,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "function",
+          "type": "string",
+          "value": "submitusername"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Lets Get Started!"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "FirstTime",
+      "name": "text",
+      "persistentUuid": "3cc8a9cd-ae4d-4b39-a499-bd3d93085a8c",
+      "width": 0,
+      "x": 310,
+      "y": 92,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Welcome to Goofy Guns"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "FirstTime",
+      "name": "text",
+      "persistentUuid": "8844ffaf-6773-4392-a82d-f23742dbe4b7",
+      "width": 0,
+      "x": 310,
+      "y": 118,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Choose a Name"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "FirstTime",
+      "name": "text",
+      "persistentUuid": "850ffa8b-4ba9-4e70-ad16-f56e580afe0d",
+      "width": 0,
+      "x": 316,
+      "y": 512,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "size",
+          "type": "number",
+          "value": 12
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "To Change your Name, Resseting Game Progress is Required"
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "FirstTime",
+      "name": "text",
+      "persistentUuid": "b59923b4-a384-4813-aee4-93eafe886742",
+      "width": 0,
+      "x": 318,
+      "y": 208,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "id",
+          "type": "string",
+          "value": "cantbename"
+        },
+        {
+          "name": "size",
+          "type": "number",
+          "value": 18
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "value": "That Cant be your Name."
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "title_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Effect",
+          "doubleParameters": {
+            "brightness": 0.8
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "string": "Goofy Guns",
+      "font": "LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 32,
+      "color": {
+        "b": 255,
+        "g": 232,
+        "r": 126
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": true,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 12,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 5,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 0,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Goofy Guns",
+        "font": "LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 32,
+        "color": "126;232;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Background",
+      "texture": "NewTiledSprite",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Brightness",
+          "name": "Effect",
+          "doubleParameters": {
+            "brightness": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "FPS",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "MyBehavior",
+          "type": "Goofy_Guns::MyBehavior"
+        }
+      ],
+      "string": "00.00 FPS",
+      "font": "LuckiestGuy-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 8,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "00.00 FPS",
+        "font": "LuckiestGuy-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 8,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Button",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "text",
+          "type": "string",
+          "value": "Error"
+        },
+        {
+          "name": "function",
+          "type": "string",
+          "value": "None"
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Size",
+          "type": "number",
+          "value": 18
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "Button",
+      "font": "LuckiestGuy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 0,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 0,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Button",
+        "font": "LuckiestGuy-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "center",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "username",
+      "type": "TextInput::TextInputObject",
+      "variables": [
+        {
+          "name": "lowercased",
+          "type": "string",
+          "value": "0"
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "Username",
+        "fontResourceName": "LuckiestGuy-Regular.ttf",
+        "fontSize": 20,
+        "inputType": "text",
+        "textColor": "255;255;255",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 0,
+        "borderWidth": 4,
+        "readOnly": false,
+        "disabled": false,
+        "paddingX": 2,
+        "paddingY": 2,
+        "textAlign": "center",
+        "maxLength": "16"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [
+        {
+          "name": "text",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "id",
+          "type": "string",
+          "value": "0"
+        },
+        {
+          "name": "Group",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "size",
+          "type": "number",
+          "value": 18
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "LuckiestGuy-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 18,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 4,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "LuckiestGuy-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 18,
+        "color": "255;255;255"
+      }
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "title_text"
+      },
+      {
+        "objectName": "Background"
+      },
+      {
+        "objectName": "FPS"
+      },
+      {
+        "objectName": "Button"
+      },
+      {
+        "objectName": "username"
+      },
+      {
+        "objectName": "text"
+      }
+    ]
+  },
+  "events": [
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Alignment",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Goofy_Guns::Function"
+              },
+              "parameters": [
+                "",
+                "title_text",
+                "\"Horizontally\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Goofy_Guns::Function"
+              },
+              "parameters": [
+                "",
+                "username",
+                "\"Horizontally\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "title_text",
+                "=",
+                "sin(Sine)*1.5"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "title_text",
+                "Scale",
+                "=",
+                "1+((sin(Sine*2))/28)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResizableCapability::ResizableBehavior::SetSize"
+              },
+              "parameters": [
+                "Background",
+                "Resizable",
+                "SceneWindowWidth()",
+                "SceneWindowHeight()"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::YOffset"
+              },
+              "parameters": [
+                "Background",
+                "=",
+                "(sin(Sine/2)*10)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::XOffset"
+              },
+              "parameters": [
+                "Background",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "EffectCapability::EffectBehavior::SetEffectDoubleParameter"
+              },
+              "parameters": [
+                "title_text",
+                "Effect",
+                "\"Effect\"",
+                "\"brightness\"",
+                ".7+((sin(Sine*2))/40)"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Button",
+                "Group",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Goofy_Guns::Function"
+              },
+              "parameters": [
+                "",
+                "Button",
+                "\"Horizontally\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "text",
+                "Group",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Goofy_Guns::Function"
+              },
+              "parameters": [
+                "",
+                "text",
+                "\"Horizontally\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "Global"
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Music",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "MusicPlaying"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "settingout.wav",
+                "1",
+                "",
+                "25",
+                "1"
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Functions",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Goofy_Guns::ButtonClicked"
+              },
+              "parameters": [
+                "",
+                "Button",
+                "\"quit\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "First Time Playing",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "SetStringObjectVariable"
+              },
+              "parameters": [
+                "username",
+                "lowercased",
+                "=",
+                "ToLowerCase(username.Text::Value())"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "text",
+                "id",
+                "=",
+                "\"cantbename\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "text",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "text",
+                "Text",
+                "=",
+                "\"That cant be your name.\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "StringObjectVariable"
+              },
+              "parameters": [
+                "Button",
+                "function",
+                "=",
+                "\"submitusername\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Button"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "StrLength(username.Text::Value())",
+                    ">",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"reincelll\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"nigger\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"nigga\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"fuck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"shit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"faggot\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"homophobic\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"cracker\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"suck\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"sex\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"[\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"]\""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"surson\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Button",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StringObjectVariable"
+                      },
+                      "parameters": [
+                        "text",
+                        "id",
+                        "=",
+                        "\"cantbename\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "text"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareStrings"
+                  },
+                  "parameters": [
+                    "username.lowercased",
+                    "contains",
+                    "\"surson\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "StringObjectVariable"
+                  },
+                  "parameters": [
+                    "text",
+                    "id",
+                    "=",
+                    "\"cantbename\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "text",
+                    "Text",
+                    "=",
+                    "\"Havent heard that one in awhile.\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Goofy_Guns::ButtonClicked"
+              },
+              "parameters": [
+                "",
+                "Button",
+                "\"submitusername\"",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "EcrireFichierTxt"
+              },
+              "parameters": [
+                "\"user\"",
+                "\"username\"",
+                "username.Text::Value()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"FirstTime\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyFromTextReleased"
+              },
+              "parameters": [
+                "",
+                "\"Delete\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "DeleteFichier"
+              },
+              "parameters": [
+                "\"user\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"user\"",
+                "\"username\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"FirstTime\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "GroupExists"
+              },
+              "parameters": [
+                "\"user\"",
+                "\"username\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"FirstTime\""
+              ]
+            },
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "FirstTime",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Cursor",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "MyBehavior",
+      "type": "Goofy_Guns::MyBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    },
+    {
+      "name": "Tween",
+      "type": "Tween::TweenBehavior"
+    }
+  ]
+}
